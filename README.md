@@ -7,12 +7,15 @@ Features
     Implements MVC pattern with contollers, models and templater.
     
 The URL addresses are looking as:
-    http://<controller>/<method>
+
+    http://website/<controller>/<method>
 
 or with id parameter:
-    http://<controller>/<method>/<id>
+
+    http://website/<controller>/<method>/<id>
 
 Also GET parameters could be applied so:
+
     http://tags/show/10?page=2
 
 This MVC implementation could be easily extended with additional helpers and modules.
