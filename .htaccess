@@ -1,0 +1,13 @@
+AddDefaultCharset utf8
+DirectoryIndex index.php
+Options -Indexes FollowSymLinks
+
+#Mod Rewrite
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite all other URLs to index.php/URL
+RewriteRule .* index.php/$0 [PT]
+</IfModule>
