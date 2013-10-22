@@ -21,8 +21,8 @@ return array
 			 */
 			'hostname'   => 'localhost',
 			'database'   => 'db1',
-			'username'   => 'root',
-			'password'   => '',
+			'username'   => 'user',
+			'password'   => 'secret',
 			'persistent' => FALSE,
 		),
 		'table_prefix' => '',
