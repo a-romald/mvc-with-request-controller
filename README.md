@@ -16,7 +16,7 @@ or with id parameter:
 
 Also GET parameters could be applied so:
 
-    http://tags/show/10?page=2
+    http://website/tags/show/10?page=2
 
 This MVC implementation could be easily extended with additional helpers and modules.
 Simple examples of controllers and methods could be found in application folder.
